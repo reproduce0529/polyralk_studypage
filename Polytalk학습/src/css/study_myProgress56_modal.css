@@ -1,0 +1,122 @@
+.super_black{
+    z-index: 9998;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: .5;
+    position: absolute;
+    top : 0;
+}
+
+.Progress_modalBox{
+    width: 1568px;
+    height: 880px;
+    position: absolute;
+    z-index: 9999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.Progress_modalBox_head{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+.Progress_modalBox_head > img{
+    position: absolute;
+    right : 0;
+    top : 0;
+}
+.Progress_modalContent{
+    width: 1568px;
+    height: 800px;
+    background-color: white;
+    position: relative;
+}
+
+.Progress_modalContent_header{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background-color: #E3CCFF;
+    font-size: 28px;
+}
+
+.Progress_modalContent_header > p{
+    padding-left: 56px;
+}
+.Progress_modalContent_body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Progress_modalContent_body_left{
+    width: 874px;
+    height: 620px;
+}
+
+.Progress_modalContent_body_left_icon{
+    width: 80px;
+    height : 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 50px;
+    color: #DDC1FF;
+    background-color: #F0DFFF;
+    border-radius: 100px;
+}
+.Progress_modalContent_body_left_line{
+    padding-left: 32px;
+    padding-top: 24px;
+    display: flex;
+}
+.Progress_modalContent_body_left_line_grpaeBox{
+    width: 756px;
+    margin-left: 32px;
+    margin-top: 12px;
+}
+.Progress_modalContent_body_left_line_bum > strong{
+    color: #9D4BE7;
+}
+
+.Progress_modalContent_body_left_line_grpa{
+    width: 100%;
+    height : 20px;
+    border-radius: 100px;
+    background-color: #eee;
+    border: 1px solid #d9d9d9;
+    margin-top: 12px;
+
+}
+.Progress_modalContent_body_left_line_grpa_inner{
+    width: 60%;
+    height: 16px;
+    margin-top: 2px;
+    margin-left: 2px;
+    background-color: #9D4BE7;
+    border-radius: 100px;
+}
+.Progress_modalContent_body_right{
+    width: 560px;
+    
+    margin-right: 64px
+}
+.Progress_modalContent_body_right > img{
+    display: block;
+    margin : auto;
+    margin-top: 20px;
+}
+.Progress_modalContent_body_right_text{
+    width: 100%;
+    text-align: center;
+    line-height: 42px;
+    font-size: 28px;
+
+}
+
+.Progress_modalContent_body_right_text >strong{
+    color: #9D4BE7;
+}

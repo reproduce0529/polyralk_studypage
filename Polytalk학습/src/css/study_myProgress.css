@@ -1,0 +1,102 @@
+body, #header{
+    background-color: #F7F0FF;
+    box-shadow: none;
+}
+#header{
+    position: fixed;
+    top: 0;
+}
+body{
+    height: 100vh;
+}
+.leftGoButton{
+    background-color: white;
+    width: 80px;
+    height: 144px;
+    text-align: center;
+    line-height: 144px;
+    position: absolute;
+    top : 50%;
+    transform: translateY(-50%);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.leftGoButton > svg{
+    width: 28px;
+    vertical-align: middle;
+    fill: #d9d9d9;
+}
+
+
+
+.rightGoButton{
+    background-color: white;
+    width: 80px;
+    height: 144px;
+    text-align: center;
+    line-height: 144px;
+    position: absolute;
+    top : 50%;
+    right: 0;
+    transform: translateY(-50%);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.rightGoButton > svg{
+    width: 28px;
+    vertical-align: middle;
+    fill: #9D4BE7;
+}
+
+
+.myProgress_whiteBox
+{
+    width: 1570px;
+    height : 840px;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    
+}
+
+.myProgressBox{
+    padding-top: 100px;
+}
+
+.myProgress_whiteBox_title{
+    width: 180px;
+    height : 50px;
+    font-size: 26px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #9D4BE7;
+    color: white;
+    border-radius: 10px;
+}
+
+.myProgress_whiteBox_line{
+    padding-left: 60px;
+    height: 130px;
+    display: flex;
+    padding-top: 64px;
+}
+.myProgress_whiteBox_mainText{
+    font-size: 26px;
+    margin-top: 12px;
+}
+
+.unButton{
+    background-color: #d9d9d9;
+    color: #8d8d8d;
+}
+.unText{
+    opacity: .5;
+}
+
+.myProgress_whiteBox_line > img{
+    width: 1120px;
+    height: 100px;
+    margin-left: 80px;
+}

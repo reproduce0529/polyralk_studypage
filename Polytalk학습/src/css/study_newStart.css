@@ -1,0 +1,102 @@
+.NewStudyPage{
+    position: relative;
+    width: 100%;
+}
+.leftGoButton{
+    background-color: white;
+    width: 80px;
+    height: 144px;
+    text-align: center;
+    line-height: 144px;
+    position: absolute;
+    top : 50%;
+    transform: translateY(-50%);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.leftGoButton > svg{
+    width: 28px;
+    vertical-align: middle;
+    fill: #d9d9d9;
+}
+
+
+
+.rightGoButton{
+    background-color: white;
+    width: 80px;
+    height: 144px;
+    text-align: center;
+    line-height: 144px;
+    position: absolute;
+    top : 50%;
+    right: 0;
+    transform: translateY(-50%);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.rightGoButton > svg{
+    width: 28px;
+    vertical-align: middle;
+    fill: #9D4BE7;
+}
+
+.NewStudyPage_Mainbox_item{
+    width: 480px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #eaeaea;
+}
+
+.NewStudyPage_Mainbox_item_select{
+    width: 480px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #9D4BE7;
+    color: white;
+    border: 10px solid #9D4BE7;
+}
+
+.NewStudyPage_Mainbox_list{
+    display: flex;
+    width: 1600px;
+    margin  : auto;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.NewStudyPage_Mainbox_item_inner{
+    width: 400px;
+    margin: auto;
+}
+.NewStudyPage_Mainbox_item_title{
+    font-size: 25px;
+    margin-top: 36px;
+}
+
+.NewStudyPage_Mainbox_item_subTitle{
+    font-size: 20px;
+}
+.NewStudyPage_Mainbox_item_img{
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top : 20px;
+    height: 180px;
+}
+.NewStudyPage_Mainbox_item-text{
+    width: 480px;
+    margin-top: 24px;
+}
+.NewStudyPage_Mainbox_percent_sel{
+    color: #9D4BE7 !important;
+}
+.NewStudyPage_Mainbox_percent{
+    color: #777;
+}
+.NewStudyPage_Mainbox_OtherList{
+    width: 1600px;
+    margin  : auto;
+    justify-content: space-between;
+}

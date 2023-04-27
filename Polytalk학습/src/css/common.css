@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+@import url(./all.css);
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
+
+html {
+  --color-violet-500: #9D4BE7;
+  --color-violet-400: #B561F1;
+  --color-violet-300: #DAB1FF;
+  --color-violet-200: #E3CCFF;
+  --color-violet-100: #EDDEFF;
+  --color-violet-00: #F7F0FF;
+
+  --color-white: #EFEFEF;
+  --color-black: #111111;
+  --color-gray-100: #EAEAEA;
+  --color-gray-200: #DDDDDD;
+  --color-gray-300: #AAAAAA;
+  --color-gray-400: #888888;
+  --color-gray-500: #333333;
+
+  --color-yellow: #FACC23;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Opera*/
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+fieldset,
+input,
+button,
+select {
+  border: 0;
+  outline: 0;
+  appearance: none;
+  /* background-color: transparent; */
+  vertical-align: middle;
+}
+
+a,
+span {
+  display: inline-block;
+}
+
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+}
+
+body {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  font: 400 16px/1.4 'Nunito Sans', sans-serif;;
+  color: #111;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* header */
+#header {
+  width: 100%;
+  min-width: 1440px;
+  height: 80px;
+  box-sizing: border-box;
+  padding: 0 30px;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.step_tit {
+  color: var(--color-violet-500);
+  background-color: var(--color-violet-100);
+  padding: 10px 25px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.main_tit {
+  font-size: 20px;
+}
+
+.icon_box #lang-select {
+  border: 1px solid var(--color-violet-200);
+  padding: 10px 25px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.icon_box .setting {
+  margin-right: 20px;
+}

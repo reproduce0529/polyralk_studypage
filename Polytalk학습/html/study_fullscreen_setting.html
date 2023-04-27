@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="../src/css/common.css">
+    <link rel="stylesheet" href="../src/css/study_main.css">
+    <link rel="stylesheet" href="../src/css/study_fullscreen.css">
+    <link rel="stylesheet" href="../src/css/study_fullscreen_setting.css">
+    <link rel="stylesheet" href="../src/css/study_fullscreen_hover.css">
+    <script src="https://kit.fontawesome.com/e71a2e5021.js" crossorigin="anonymous"></script>
+    <title>Study Preview</title>
+</head>
+
+<body>
+
+    <div class="super_black"></div>
+
+
+    <div class="study_fullscreen_setting_modal">
+        <div class="study_fullscreen_setting_inner">
+            <div class="study_fullscreen_setting_modal_title">환경설정 <img src="../src/img/reset.png" alt=""></div>
+            <div class="study_fullscreen_setting_modal_Xmark">x</div>
+
+
+
+            <div class="study_fullscreen_setting_modal_Layout_ul">
+                <div class="study_fullscreen_setting_modal_Layout_item">
+                    <div class="study_fullscreen_setting_modal_Layout_item-title">볼륨설정</div>
+                    <div class="study_fullscreen_setting_modal_Layout_item_mainBox">
+                        <div class="study_fullscreen_setting_modal_Layout_item_label">
+                            <div><img src="../src/img/polygon.png" alt="">
+                                <span>효과음</span>
+                            </div>
+                        </div>
+
+                        <div class="study_fullscreen_setting_modal_Layout_item_progress">
+                            <div class="study_fullscreen_setting_modal_Layout_item_progress_inner">
+                                <div class="study_fullscreen_setting_modal_Layout_item_progress_innerBall">
+                                    <div class="study_fullscreen_setting_modal_Layout_item_progress_innerVafw"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="study_fullscreen_setting_modal_Layout_item_label">
+                            <div><img src="../src/img/polygon.png" alt="">
+                                <span>배경음악</span>
+                            </div>
+                        </div>
+                        <div class="study_fullscreen_setting_modal_Layout_item_progress">
+                            <div class="study_fullscreen_setting_modal_Layout_item_progress_inner">
+                                <div class="study_fullscreen_setting_modal_Layout_item_progress_innerBall">
+                                    <div class="study_fullscreen_setting_modal_Layout_item_progress_innerVafw"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="study_fullscreen_setting_modal_Layout_item">
+                    <div class="study_fullscreen_setting_modal_Layout_item-title">텍스트 설정</div>
+                    <div class="study_fullscreen_setting_modal_Layout_item_mainBox">
+                        <div class="study_fullscreen_setting_modal_Layout_item_label">
+                            <div><img src="../src/img/polygon.png" alt="">
+                                <span>글자 크기</span>
+                            </div>
+                        </div>
+                        <div class="study_fullscreen_setting_modal_Layout_item_progress">
+                            <div class="study_fullscreen_setting_modal_Layout_item_progress_inner">
+                                <div class="study_fullscreen_setting_modal_Layout_item_progress_innerBall">
+                                    <div class="study_fullscreen_setting_modal_Layout_item_progress_innerVafw"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="study_fullscreen_setting_modal_Layout_item_label">
+                            <div><img src="../src/img/polygon.png" alt="">
+                                <span>글자 색상</span>
+                            </div>
+                        </div>
+                        <div class="study_fullscreen_setting_modal_Layout_color_list">
+
+                            <div class="study_fullscreen_setting_modal_Layout_color_item bbg-black"></div>
+                            <div class="study_fullscreen_setting_modal_Layout_color_item bbg-gray"></div>
+                            <div class="study_fullscreen_setting_modal_Layout_color_item bbg-semi-gray"></div>
+                            <div class="study_fullscreen_setting_modal_Layout_color_item bbg-violet"></div>
+                            <div class="study_fullscreen_setting_modal_Layout_color_item bbg-blue"></div>
+                            <div class="study_fullscreen_setting_modal_Layout_color_item bbg-green"></div>
+                            <div class="study_fullscreen_setting_modal_Layout_color_item bbg-yellow"></div>
+                            <div class="study_fullscreen_setting_modal_Layout_color_item bbg-purple"></div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="study_fullscreen_setting_modal_Layout_ul">
+                <div class="study_fullscreen_setting_modal_Layout_item">
+                    <div class="study_fullscreen_setting_modal_Layout_item-title">음성인식 설정</div>
+                    <div class="study_fullscreen_setting_modal_Layout_item_mainBox">
+                        <div class="study_fullscreen_setting_modal_Layout_item_label">
+                            <div><img src="../src/img/polygon.png" alt="">
+                                <span>음성인식 횟수</span>
+                            </div>
+
+                            <div class="plusMinusBox">
+                                <span>-</span><span class="numbOx">1회</span><span>+</span>
+                            </div>
+                        </div>
+                        <div class="study_fullscreen_setting_modal_Layout_item_label">
+                            <div><img src="../src/img/polygon.png" alt="">
+                                <span>음성인식후 녹음자동재생</span>
+                            </div>
+                            <div class="plusMinusBox">
+                                <div class="plusMinusBox_raio">
+                                    <div class="plusMinusBox_radio_inner"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="study_fullscreen_setting_modal_Layout_item_label">
+                            <div><img src="../src/img/polygon.png" alt="">
+                                <span>원어민 문장 반복횟수</span>
+                            </div>
+                            <div class="plusMinusBox">
+                                <span>-</span><span class="numbOx">1회</span><span>+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="study_fullscreen_setting_modal_Layout_item">
+                    <div class="study_fullscreen_setting_modal_Layout_item-title">기타설정</div>
+                    <div class="study_fullscreen_setting_modal_Layout_item_mainBox">
+                        <div class="study_fullscreen_setting_modal_Layout_item_label">
+                            <div><img src="../src/img/polygon.png" alt="">
+                                <span>타임바표시</span>
+                            </div>
+                            <div class="plusMinusBox">
+                                <div class="plusMinusBox_raio">
+                                    <div class="plusMinusBox_radio_inner"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="study_fullscreen_setting_modal_Layout_item_label">
+                            <div><img src="../src/img/polygon.png" alt="">
+                                <span>사전기능</span>
+                            </div>
+                            <div class="plusMinusBox">
+                                <div class="plusMinusBox_raio">
+                                    <div class="plusMinusBox_radio_inner"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="study_fullscreen_setting_modal_Layout_item_label">
+                            <div><img src="../src/img/polygon.png" alt="">
+                                <span>넘어가기 알림</span>
+                            </div>
+                            <div class="plusMinusBox">
+                                <div class="plusMinusBox_raio">
+                                    <div class="plusMinusBox_radio_inner"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <header id="header" class="study_header d-flex">
+        <div class="tit d-flex">
+            <h2 class="step_tit">Preview</h2>
+            <h2 class="main_tit">Meeting someone for the first time</h2>
+        </div>
+        <div class="icon_box d-flex">
+            <div class="lang_box">
+                <select name="language" id="lang-select">
+                    <option value="En">영어</option>
+                    <option value="Ch">중국어</option>
+                    <option value="Ja">일본어</option>
+                    <option value="Ko">한국어</option>
+                    <option value="Vi">베트남어</option>
+                    <option value="Sp">스페인어</option>
+                    <option value="Ge">독일어</option>
+                    <option value="Ar">아랍어</option>
+                    <option value="Fr">프랑스어</option>
+                    <option value="Ran">랜덤선택</option>
+                </select>
+            </div>
+            <div class="setting"><a href="#"><img src="../src/img/icon_setting.png" alt="setting_icon"
+                        style="width:30px;"></a></div>
+            <div class="slide_open"><a href="#"><i class="fa-solid fa-bars"
+                        style="color: #7a7a7a; font-size: 24px;"></i></a></div>
+        </div>
+
+
+    </header>
+    <div class="perCentBar">
+        <div class="perCentBar_inner"></div>
+    </div>
+
+
+    <section class="fullscreen_section">
+        <img src="../src/img/dawdawdwa.png" alt="" class="picture">
+
+        <div class="lemoteControlBox">
+            <img src="../src/img/remote.png" alt="">
+        </div>
+
+
+        <div class="playStateBox">
+            <div class="progress_bar">
+                <div class="progress_bar_inner"></div>
+            </div>
+            <div class="bar_under_remoteBox d-flex">
+                <div class="bar_under_remoteBox_left d-flex">
+                    <img src="../src/img/dww.png" alt="">
+                    <img src="../src/img/icon_1xfast.png" alt="">
+                    <img src="../src/img/icon_subtitle.png" alt="">
+                    <img src="../src/img/icon_speaker02.png" alt="">
+                </div>
+
+                <div class="bar_under_remoteBox_right d-flex">
+                    <p class="timeOut_text">2:51 / 8:13</p>
+                    <img src="../src/img/awawdawaw.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+</body>
+
+</html>
